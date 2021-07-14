@@ -25,7 +25,6 @@ const Author = styled.h1`
     color: #313131;
     text-overflow: none;
     margin-top: 2.5px;
-    margin-bottom: 12px;
 `
 
 const Cover = styled.img`
@@ -34,12 +33,13 @@ const Cover = styled.img`
     border-radius: 4px;
     margin-bottom: 9px;
     background-color: grey;
+    margin-top: 12px;
 `
 
 const WelcomeMsg = styled.h1`
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 36px;
+    margin-bottom: 24px;
     margin-top: 30px;
     margin-left: 20px;
     font-family: SF Pro Display;
@@ -56,7 +56,7 @@ const SearchInput = styled(Input)`
     box-shadow: 5px 5px 80px rgba(212, 173, 134, 0.122623);
 `
 
-const BookCard = styled.div``
+
 
 function Home() {
     const [searchTerm, setSearchTerm] = useState('')
@@ -118,7 +118,7 @@ function Home() {
 
                             return (
                                 <Col xs={4} key={index}>
-                                    <BookCard>
+                                    
                                         <Link to={`/${val.id}`}>
                                             <Cover
                                                 className="shadow-sm"
@@ -127,7 +127,7 @@ function Home() {
                                             <Title>{val.title}</Title>
                                             <Author>by {val.author}</Author>
                                         </Link>
-                                    </BookCard>
+                                    
                                 </Col>
                             )
                         })}
