@@ -1,13 +1,15 @@
 @font-face {
     font-family: 'SFProDisplay';
-    src: local('SFProDisplay'), url(./fonts/SFProDisplay-Regular.ttf) format('truetype');
-  }
+    src: local('SFProDisplay'),
+        url(./fonts/SFProDisplay-Regular.ttf) format('truetype');
+}
 
-  @font-face {
+@font-face {
     font-family: 'SFProText';
-    src: local('SFProText'), url(./fonts/SFProText-Regular.ttf) format('truetype');
-  }
-  @font-face {
+    src: local('SFProText'),
+        url(./fonts/SFProText-Regular.ttf) format('truetype');
+}
+@font-face {
     font-family: 'Roboto';
     src: local('Roboto'), url(./fonts/Roboto-Black.ttf) format('truetype');
-  }
+}
