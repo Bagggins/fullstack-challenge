@@ -1,4 +1,4 @@
-Run on terminal: 
+##Run on terminal: 
 
 1.cd ./fullstack-challenge/backend
 
@@ -8,5 +8,5 @@ Run on terminal:
 
 4.npm install
 
-5. npm run dev
+5.npm run dev
 
